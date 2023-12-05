@@ -7,14 +7,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { FcGoogle } from 'react-icons/fc';
-
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-
-
-import { SigninValidation } from "@/lib/validation/user";
-
+import { Form, FormField, FormItem } from "../../../components/ui/form";
+import { Button } from "../../../components/ui/button";
+import { SigninValidation } from "../../../lib/validation/user";
 
 const SigninForm = () => {
 
