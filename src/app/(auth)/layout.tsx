@@ -31,7 +31,6 @@ export default function RootLayout({
           <section className='flex relative bg-[#D9DEEF] flex-1 justify-center items-center flex-col '>
             {children}
           </section>
-          {/* text-[#877EFF] */}
         </main>
       </body>
     </html>

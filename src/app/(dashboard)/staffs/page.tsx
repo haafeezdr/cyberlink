@@ -1,12 +1,12 @@
 import react from "react"
 
 
-const student = () => {
+const staffs = () => {
     return (
         <div>
-            student page
+            staff page
         </div>
     )
 }
 
-export default student
+export default staffs
