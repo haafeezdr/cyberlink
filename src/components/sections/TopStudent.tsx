@@ -10,7 +10,7 @@ const TopStudent = () => {
         {studentData.map((order, id) => (
           <li
             key={id}
-            className="rouded-lg my-3 flex cursor-pointer items-center bg-slate-50 p-2 hover:bg-slate-100"
+            className="rouded-lg my-3 flex cursor-pointer items-center bg-slate-50 p-2 hover:bg-[#1B5299]"
           >
             <div className="rounded-lg  p-2">
             <Image 
@@ -27,7 +27,7 @@ const TopStudent = () => {
               <p className="text-sm text-slate-400">{order.name.first}</p>
             </div>
             <p className="absolute right-6 text-sm md:hidden lg:flex">
-              {order.date}
+              {order.age}
             </p>
           </li>
         ))}

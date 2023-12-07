@@ -8,7 +8,7 @@ export const studentData = [
       email: "haafeezdaiyab@gmail.com",
       status: "98.0%",
       method: "Payoneer",
-      date: "3 Minutes ago",
+      age: "12 years",
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ export const studentData = [
       email: "maggie.nguyen@example.com",
       status: "97.4%",
       method: "Credit Card",
-      date: "1 Hour ago",
+      age: "13 years",
     },
   
     {
@@ -31,7 +31,7 @@ export const studentData = [
       email: "gabriel.gonzalez@example.com",
       status: "97%",
       method: "PayPal",
-      date: "5 Minutes ago",
+      age: "14 years",
     },
   
     {
@@ -43,7 +43,7 @@ export const studentData = [
       email: "samantha.lee@example.com",
       status: "89%",
       method: "Bank Transfer",
-      date: "1 Day ago",
+      age: "12 years",
     },
   
     {
@@ -55,7 +55,7 @@ export const studentData = [
       email: "daniel.chen@example.com",
       status: "87%",
       method: "Stripe",
-      date: "10 Minutes ago",
+      age: "11 years",
     },
   
     {
@@ -67,7 +67,7 @@ export const studentData = [
       email: "avery.williams@example.com",
       status: "86.5%",
       method: "PayPal",
-      date: "1 Hour ago",
+      age: "14 years",
     },
   
     {
@@ -79,7 +79,7 @@ export const studentData = [
       email: "oliver.martinez@example.com",
       status: "86%",
       method: "Credit Card",
-      date: "15 Minutes ago",
+      age: "15 years",
     },
   
     {
@@ -91,7 +91,7 @@ export const studentData = [
       email: "sophia.garcia@example.com",
       status: "84%",
       method: "Payoneer",
-      date: "2 Hours ago",
+      age: "12 years",
     },
   
     {
@@ -103,7 +103,7 @@ export const studentData = [
       email: "jacob.liu@example.com",
       status: "83.9%",
       method: "Bank Transfer",
-      date: "30 Minutes ago",
+      age: "13 years",
     },
   
     {
@@ -115,6 +115,6 @@ export const studentData = [
       email: "isabella.wong@example.com",
       status: "82%",
       method: "Stripe",
-      date: "2 Days ago",
+      age: "14 years",
     },
   ];

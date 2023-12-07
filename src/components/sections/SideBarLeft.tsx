@@ -22,28 +22,28 @@ const SideBarLeft = () => {
 
     // <div className=" left-0 top-0 text-white h-screen  bg-[#1B264F] ">
        <div className=' left-0 top-0 text-white h-screen  bg-[#1B264F] flex flex-col justify-between'>
-            <div className='flex py-10 justify-center items-center'><h2>LOGO</h2>
+            <div className='flex  py-10 justify-center items-center'><h2>LOGO</h2>
               </div>
-            <div className='flex justify-center  items-center'>
+            <div className='flex '>
               <ul className='space-y-3 flex-col items-center justify-center ml-4'>
-                <h1 className='text-[#5b5b5b]'>Main</h1>
+                <h1 className='text-[#5b5b5b] px-2 py-3'>Main</h1>
                 <li onClick={() => router.push('/home')}
-                  className="mb-2 flex items-center  px-2 py-1 rounded-sm hover:bg-[#1B5299] cursor-pointer transition-all duration-300 ease-in-out transform ">
+                  className="mb-2 flex items-center  px-2 py-2 rounded-sm hover:bg-[#1B5299] cursor-pointer transition-all duration-300 ease-in-out transform ">
                   <FaHome className="mr-2 text-[12px]" />
                   <span className='text-[12px] font-semi-bold'>Home</span>
                 </li>
                 <li onClick={() => router.push('/students')}
-                  className="mb-2 flex items-center px-2 py-1 rounded-sm hover:bg-[#1B5299] cursor-pointer  transition-all duration-300 ease-in-out transform ">
+                  className="mb-2 flex items-center px-2 py-2 rounded-sm hover:bg-[#1B5299] cursor-pointer  transition-all duration-300 ease-in-out transform ">
                   <PiStudentBold className="mr-2 text-[12px]" />
                   <span className='text-[12px] font-semi-bold'>Students</span>
                 </li>
                 <li onClick={() => router.push('/staffs')}
-                  className=" mb-2 flex items-center  px-2 py-1 rounded-sm hover:bg-[#1B5299] cursor-pointer transition-all duration-300 ease-in-out transform  ">
+                  className=" mb-2 flex items-center  px-2 py-2 rounded-sm hover:bg-[#1B5299] cursor-pointer transition-all duration-300 ease-in-out transform  ">
                   <GrUserWorker className="mr-2 text-[12px]"/>
                   <span className='text-[12px] font-semi-bold'>Staffs</span>
                 </li>
                 <li onClick={() => router.push('/management')}
-                  className=" mb-2 flex items-center px-2 py-1 rounded-sm hover:bg-[#1B5299] cursor-pointer transition-all duration-300 ease-in-out transform  ">
+                  className=" mb-2 flex items-center px-2 py-2 rounded-sm hover:bg-[#1B5299] cursor-pointer transition-all duration-300 ease-in-out transform  ">
                   <FaUser className="mr-2 text-[12px]" />
                   <span className='text-[12px] font-semi-bold'>Management</span>
                 </li>

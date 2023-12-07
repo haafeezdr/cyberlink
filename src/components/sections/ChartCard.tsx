@@ -54,7 +54,7 @@ const ChartCard = () => {
   }, []);
   return (
     <>
-      <div className="bg-[#1B264F] m-auto h-[25vh] w-[85%] rounded-lg border md:col-span-2 lg:h-[50vh]">
+      <div className="bg-[#1B264F] m-auto h-[30vh] w-[85%] rounded-lg border md:col-span-2 lg:h-[50vh]">
         <Bar data={chartData} options={chartOptions} />
       </div>
     </>
