@@ -25,9 +25,33 @@ const SigninForm = () => {
   return (
     <Form {...form}
     >
-      <div className="sm:w-420 flex justify-center items-center flex-col">
-        <Image src="/assets/images/Frame 68.png" alt="logo" className="absolute top-10" width={47} height={15} />
-        <form
+      <div className="sm:w-420 flex  flex-col m-4 text-[#828285]">
+        <div className="border-b-2 border-[#9747FF] w-[15%] mb-4">
+         <Image src="/assets/images/Group 4.png" alt="logo" className="" width={50} height={50} />
+         </div>
+        <div className="mb-4">
+          <h1 className="text-xl font-bold text-white">Login</h1>
+          <p className="text-sm ">Continue discovering rare and original networks</p>
+        </div>
+
+        <div className='flex  justify-center items-center w-full py-1 font-semibold rounded cursor-pointer border-2 border-gray-500 gap-2 mb-4'>
+              <FcGoogle size={15} />Login with Google
+         </div>
+
+         <div className="mb-4 text-center ">
+          <p className="text-sm ">Or login with email</p>
+        </div>
+
+      </div>
+    </Form>    
+        
+  );
+};
+
+export default SigninForm;
+
+
+{/* <form
         //   onSubmit={form.handleSubmit(handleSignin)}
           className="flex flex-col gap-2 w-full mt-4 py-7">
           
@@ -63,8 +87,4 @@ const SigninForm = () => {
               <FcGoogle size={15} />Google
          </div>
       </div>
-    </Form>
-  );
-};
-
-export default SigninForm;
+    </Form> */}
