@@ -18,8 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className='flex h-screen'>
-          <div className='hidden md:block h-screen w-1/2  '>
+        <main className='flex h-screen gap-5'>
+          <div className='hidden md:block h-screen w-1/3  '>
             <Image 
               src="/assets/images/image 4.png"
               alt="logo"
@@ -28,7 +28,7 @@ export default function RootLayout({
               className="h-screen"
             />
           </div>
-          <section className=' m-5 bg-[#1C1A24]  '>
+          <section className=' m-5 bg-[#1C1A24] rounded-sm border-2 border-[#9747FF] w-[60%]'>
             {children}
           </section>
         </main>
