@@ -8,9 +8,28 @@
   body {
     @apply  bg-[#0E0C17];
   }
-}
+ 
+  .btn 
+  {
+      /* ff 3.6+ */
+      background: -moz-linear-gradient(90deg, #9747FF 39%, #406FFE 100%); 
+  
+      /* safari 5.1+,chrome 10+ */
+      background: -webkit-linear-gradient(90deg, #9747FF 39%, #406FFE 100%);
+  
+      /* opera 11.10+ */
+      background: -o-linear-gradient(90deg, #9747FF 39%, #406FFE 100%);
+  
+      /* ie 6-9 */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#406FFE', endColorstr='#9747FF', GradientType=0 );
+  
+      /* ie 10+ */
+      background: -ms-linear-gradient(90deg, #9747FF 39%, #406FFE 100%);
+  
+      /* global 94%+ browsers support */
+      background: linear-gradient(90deg, #9747FF 39%, #406FFE 100%);
+  }
 
-@layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
