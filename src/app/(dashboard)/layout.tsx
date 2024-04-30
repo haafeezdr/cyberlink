@@ -20,7 +20,7 @@ export default function Rootlayout({
     <div className='flex h-full w-full bg-[#0E0C17]'>
         <div className=' border-r-2 border-[#5F5959] w-[20%]'><Sidebar /></div>
         <div className=' w-full h-full'>
-            <div className='border-b-2 border-[#5F5959]'><Navbar /></div>
+            <div className='border-b-2 border-[#5F5959] top-0'><Navbar /></div>
             <section className='m-3'>
             {children}
             </section>

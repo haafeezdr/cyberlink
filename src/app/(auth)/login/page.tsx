@@ -11,7 +11,7 @@ import { Form, FormField, FormItem } from "../../../components/ui/form";
 import { Button } from "../../../components/ui/button";
 import { SigninValidation } from "../../../lib/validation/user";
 
-const SigninForm = () => {
+const LoginPage: React.FC = () => {
 
   const form = useForm<z.infer<typeof SigninValidation >>({
     resolver: zodResolver(SigninValidation ),
@@ -69,7 +69,7 @@ const SigninForm = () => {
                 />
           </div>
           <div className="mb-4 flex justify-between">
-                  <div><input type="radio" />Remember me</div>
+                  <div><input type="radio" /> Remember me</div>
                   <div><a href="/forget">Forgot Password</a></div>
           </div>
           <div className="border-2  border-[#626262] btn w-[20%] rounded px-1 py-1 text-center mb-4 cursor-pointer hover:border-[#a4a4a4] text-white">Login</div>
@@ -79,5 +79,5 @@ const SigninForm = () => {
   );
 };
 
-export default SigninForm;
+export default LoginPage;
 

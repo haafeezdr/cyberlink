@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Sidebar = () => {
   return (
-    <div className='flex flex-col justify-between items-center p-6  h-full'>
+    <div className='flex flex-col justify-between items-center p-6 fixed h-full'>
         <div className="mb-5">
          <Image src="/assets/images/Group 4.png" alt="logo" className="" width={70} height={70} />
         </div>
